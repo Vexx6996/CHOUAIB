@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Mathématiques</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <h2>Quiz de Mathématiques</h2>
+        <img src="data:image/jpeg;base64,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" alt="description" width="width" height="height">
+
+    <form action="thanks.html" method="GET">
+        <ol>
+            <li>
+                <p>Quel est le résultat de 5 + 7 ?</p>
+                <input type="radio" name="q1" value="10"> 10<br>
+                <input type="radio" name="q1" value="11"> 11<br>
+                <input type="radio" name="q1" value="12"> 12<br>
+            </li>
+            <li>
+                <p>Quel est le produit de 6 x 8 ?</p>
+                <input type="radio" name="q2" value="48"> 48<br>
+                <input type="radio" name="q2" value="54"> 54<br>
+                <input type="radio" name="q2" value="42"> 42<br>
+            </li>
+            <li>
+                <p>Quel est le résultat de 15 ÷ 3 ?</p>
+                <input type="radio" name="q3" value="5"> 5<br>
+                <input type="radio" name="q3" value="6"> 6<br>
+                <input type="radio" name="q3" value="4"> 4<br>
+            </li>
+            <li>
+                <p>Combien font 9 x 9 ?</p>
+                <input type="radio" name="q4" value="81"> 81<br>
+                <input type="radio" name="q4" value="72"> 72<br>
+                <input type="radio" name="q4" value="90"> 90<br>
+            </li>
+            <li>
+                <p>Quel est le résultat de 100 - 37 ?</p>
+                <input type="radio" name="q5" value="63"> 63<br>
+                <input type="radio" name="q5" value="70"> 70<br>
+                <input type="radio" name="q5" value="72"> 72<br>
+            </li>
+            <li>
+                <p>Quel est le carré de 12 ?</p>
+                <input type="radio" name="q6" value="144"> 144<br>
+                <input type="radio" name="q6" value="132"> 132<br>
+                <input type="radio" name="q6" value="121"> 121<br>
+            </li>
+            <li>
+                <p>Si un rectangle a une longueur de 10 cm et une largeur de 5 cm, quelle est sa superficie ?</p>
+                <input type="radio" name="q7" value="50"> 50 cm²<br>
+                <input type="radio" name="q7" value="45"> 45 cm²<br>
+                <input type="radio" name="q7" value="55"> 55 cm²<br>
+            </li>
+            <li>
+                <p>Quel est le résultat de 7 + 8 x 2 ?</p>
+                <input type="radio" name="q8" value="23"> 23<br>
+                <input type="radio" name="q8" value="22"> 22<br>
+                <input type="radio" name="q8" value="15"> 15<br>
+            </li>
+            <li>
+                <p>Combien de côtés a un hexagone ?</p>
+                <input type="radio" name="q9" value="6"> 6<br>
+                <input type="radio" name="q9" value="8"> 8<br>
+                <input type="radio" name="q9" value="4"> 4<br>
+            </li>
+            <li>
+                <p>Quel est le résultat de 36 ÷ 6 ?</p>
+                <input type="radio" name="q10" value="6"> 6<br>
+                <input type="radio" name="q10" value="7"> 7<br>
+                <input type="radio" name="q10" value="8"> 8<br>
+            </li>
+        </ol>
+        <button type="submit">Soumettre</button>
+    </form>
+</body>
+</html>

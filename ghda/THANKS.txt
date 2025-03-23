@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Mathématiques avec Fond Arc-en-Ciel</title>
+    <link rel="stylesheet" href="thanks.css">
+
+    <style>
+       
+    </style>
+<body>
+    <h2>NADI !</h2>
+    <p>KAIN.</p>
+
+    <!-- Logout Button -->
+    <button onclick="window.location.href='login.html'">Se déconnecter</button>
+        <img src="    https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvow1E1p1fIXsuFUhc6Qdi3zvskwATa80OkA&s
+        =" alt="description" width="width" height="height">
+
+    <br><br>
+  
+</body>
+</html>
